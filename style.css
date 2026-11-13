@@ -1,0 +1,20 @@
+#landing {
+    min-height: 75vh;
+}
+
+#featured .card {
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#featured .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#featured .card-img-top {
+    height: 240px;
+    object-fit: contain;
+    padding: 1rem;
+    background-color: rgba(235, 104, 100, 0.25);
+}
